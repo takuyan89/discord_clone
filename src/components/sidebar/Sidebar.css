@@ -1,8 +1,7 @@
 .sidebar {
   display: flex;
-  flex: 0.35;
+  flex: 0.3;
   height: 100vh;
-  background-color: #33363d;
 }
 .sidebar .sidebarLeft {
   display: flex;
@@ -30,6 +29,8 @@
 .sidebar .sidebarRight {
   background-color: #2b2d33;
   width: 300px;
+  position: relative;
+  flex-grow: 1;
 }
 .sidebar .sidebarRight .sidebarTop {
   color: #fff;
@@ -37,4 +38,54 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+}
+.sidebar .sidebarRight .sidebarChannels {
+  padding: 13px;
+}
+.sidebar .sidebarRight .sidebarChannels .sidebarChannelsHeader {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+.sidebar .sidebarRight .sidebarChannels .sidebarChannelsHeader .sidebarHeader {
+  display: flex;
+}
+.sidebar .sidebarRight .sidebarChannels .sidebarChannelsHeader .sidebarAddIcon {
+  cursor: pointer;
+}
+.sidebar .sidebarRight .sidebarFooter {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 93%;
+  padding-bottom: 10px;
+  border-top: 1px solid #686a6e;
+  padding-top: 10px;
+  margin-left: -3px;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarAccount {
+  display: flex;
+  align-items: center;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarAccount img {
+  width: 60px;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarAccount .accountName {
+  margin-left: 5px;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarAccount .accountName h4 {
+  color: white;
+  font-weight: 500;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarAccount .accountName span {
+  color: #686a6e;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarVoice {
+  display: flex;
+  align-items: center;
+  color: gray;
 }/*# sourceMappingURL=Sidebar.css.map */
