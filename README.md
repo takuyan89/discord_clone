@@ -1,6 +1,8 @@
 # Discord クローン
 
 このプロジェクトは、React、Redux、Firebase を使用して構築された Discord アプリケーションの簡易クローンです。Google 認証によるユーザー認証やリアルタイムチャット、Material-UI を使ったモダンな UI 要素などの基本的な機能を提供しています。
+<img width="1438" alt="スクリーンショット 2024-08-05 18 41 02" src="https://github.com/user-attachments/assets/16eec7f5-3544-428c-bb68-bf6b68b4e43c">
+
 
 ## 目次
 
