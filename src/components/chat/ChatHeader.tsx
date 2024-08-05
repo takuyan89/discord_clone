@@ -7,13 +7,19 @@ import SearchIcon from "@mui/icons-material/Search";
 import SendIcon from "@mui/icons-material/Send";
 import HelpIcon from "@mui/icons-material/Help";
 
-function ChatHeader() {
+type Props = {
+    chennelName: string | null;
+};
+
+function ChatHeader(props: Props) {
+    const { chennelName } = props;
+
     return (
         <div className="chatHeader">
             <div className="chatHeaderLeft">
                 <h3>
                     <span className="chatHeaderHash">#</span>
-                    Udemy
+                    {chennelName}
                 </h3>
             </div>
             <div className="chatHeaderRight">
